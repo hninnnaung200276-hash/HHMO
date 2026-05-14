@@ -1,10 +1,10 @@
-/* General Setup */
+
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
 body { line-height: 1.6; color: #333; background: #1a1a1a; }
 a { text-decoration: none; color: inherit; }
 ul { list-style: none; }
 
-/* Navigation */
+
 nav {
     background: #000;
     color: #fff;
@@ -20,7 +20,7 @@ nav {
 .nav-links { display: flex; gap: 20px; }
 .nav-links a:hover {  color:#F3C01E; }
 
-/* Sections */
+
 section { padding: 60px 10%; background: #fff; min-height: 70vh; }
 h2 { text-align: center; margin-bottom: 40px; font-size: 2rem; text-transform: uppercase; }
 
@@ -28,7 +28,7 @@ h2 { text-align: center; margin-bottom: 40px; font-size: 2rem; text-transform: u
 
 
 
-    /* --- Hero Section --- */
+   
 .modern-hero1 {
     position: relative;
     padding: 100px 8%;
@@ -153,7 +153,6 @@ h2 { text-align: center; margin-bottom: 40px; font-size: 2rem; text-transform: u
 
 
 
-/* Gallery Specific Styles ---------------------------------*/
         .gallery h2{
             color:#F3C01E;
               }
@@ -229,10 +228,6 @@ h2 { text-align: center; margin-bottom: 40px; font-size: 2rem; text-transform: u
              transform: scale(1.1);
         }
 
-/* --- Responsive Media Queries --- */
-
-          
-/* Brands Page Specific Styles------------------------------ */
             .brand h2{
              color:#F3C01E;
              }
@@ -311,7 +306,7 @@ h2 { text-align: center; margin-bottom: 40px; font-size: 2rem; text-transform: u
         }
 
 
- /*------------ contact-page------------------------ */
+
        #contact {
     background-color: #1a1a1a;
     padding: 50px;
@@ -330,7 +325,7 @@ h2 { text-align: center; margin-bottom: 40px; font-size: 2rem; text-transform: u
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-/* Left Side Styling */
+
 .contact-info {
     flex: 1;
     padding: 40px;
@@ -385,7 +380,6 @@ h2 { text-align: center; margin-bottom: 40px; font-size: 2rem; text-transform: u
 }
 
 
-/* Right Side Styling (Form) */
 .contact-form {
     flex: 1.2;
     padding: 40px;
@@ -482,7 +476,7 @@ h2 { text-align: center; margin-bottom: 40px; font-size: 2rem; text-transform: u
 
 
 
-/* --------------------------------about-page----------- */
+
 .about-section{
     background-color: #1a1a1a;
 }
@@ -493,7 +487,7 @@ h2 { text-align: center; margin-bottom: 40px; font-size: 2rem; text-transform: u
 
 }
 
-/* About Row Styling */
+
 .about-row {
     display: flex;
     align-items: center;
@@ -528,7 +522,6 @@ h2 { text-align: center; margin-bottom: 40px; font-size: 2rem; text-transform: u
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-/* Guarantees Section */
 .center {
     text-align: center;
     margin-bottom: 40px;
@@ -643,8 +636,6 @@ h2 { text-align: center; margin-bottom: 40px; font-size: 2rem; text-transform: u
     color: #1a1a1a;
     transform: translateY(-5px);
 }
-
-/* Newsletter Form */
 .footer-form {
     display: flex;
     margin-top: 15px;
@@ -677,9 +668,6 @@ h2 { text-align: center; margin-bottom: 40px; font-size: 2rem; text-transform: u
     color: #666;
 }
 
-
-
-/* for footer-noti */
 
 .newsletter-form{
     display: flex;
@@ -748,11 +736,6 @@ h2 { text-align: center; margin-bottom: 40px; font-size: 2rem; text-transform: u
     from { opacity: 0; transform: translateY(-20px); }
     to { opacity: 1; transform: translateY(0); }
 }
-
-/* ... Keep your existing CSS above ... */
-
-
-/* order-page-------------------------- */
 
  .order-container {
             background: #000;
